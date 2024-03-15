@@ -51,4 +51,11 @@ const strings = [
 
 const jedi = strings // append your code here
 
+.map(strings => 
+{
+	return ({strings})
+})
+
+
+
 test("Problem 2", jedi)

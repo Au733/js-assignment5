@@ -40,4 +40,14 @@ const items = [
 
 const person = items // append your code here
 
+.reduce((result, [key, value]) => {
+	result[key] = value
+	return result
+  }, {})
+
+  delete person.age
+
+
+
+
 test("Problem 4", person)
