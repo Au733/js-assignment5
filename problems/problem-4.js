@@ -40,9 +40,9 @@ const items = [
 
 const person = items // append your code here
 
-.reduce((result, [key, value]) => {
-	result[key] = value
-	return result
+.reduce((obj, [key, value]) => {
+	obj[key] = value
+	return obj
   }, {})
 
   delete person.age
